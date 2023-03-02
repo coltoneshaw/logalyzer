@@ -1,0 +1,39 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"types/*": [
+				"src/types/*"
+			],
+			"#/*": [
+				"./*"
+			],
+			"@/*": [
+				"./src/*"
+			],
+			"tests/*": [
+				"src/tests/*"
+			]
+		},
+		"lib": [
+			"dom",
+			"es2021",
+		],
+		"resolveJsonModule": true,
+		"moduleResolution": "node",
+		"target": "esnext",
+		"module": "NodeNext",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"noErrorTruncation" : true,
+		"jsx": "react",
+		"types": [
+			"react/next",
+			"react-dom/next",
+	],
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "**/node_modules/*", "dist", "**/*.js"]
+}
