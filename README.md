@@ -1,3 +1,5 @@
-# React Quickstart Base
+# Logalyzer
 
-This is a simple quick start that includes ESLint, Webpack, React, Typescript and Redux Toolkit.
+Just a simple tool that's mean to analyze the config.json file and logs for Mattermost.
+
+Still a work in progress
